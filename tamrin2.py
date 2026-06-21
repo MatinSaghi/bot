@@ -47,3 +47,6 @@ async def on_member_unban(guild , user):
   channel = Bot.get_channel(1518197129657716777)
   if channel:
     await channel.send(f"{user.name}unban shod")
+
+Token= "MTQzMjMwOTU5MDQ4NTI0MTg3Ng.GQAuW7.If3qs32BWmj3lcJwI59Rh20t84p6thS_ucwp7Q"
+Bot.run(Token)
